@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+header {
+    background-color: #000; /* Black header background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White links */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-info,
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info ul {
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 5px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ffD700; /* Gold button */
+    color: #000; /* Black text */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ffd700; /* Lighter gold on hover */
+}

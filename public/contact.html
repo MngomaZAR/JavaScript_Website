@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SWV Brothers</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional CSS for layout and colors */
+        body {
+            background-color: #333333; /* Black background */
+            color: #CCCCCC; /* Light grey text */
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            background-color: #CC9900; /* Gold */
+            color: #333333; /* Black text */
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        main {
+            padding: 20px;
+        }
+        
+        .contact-info, .contact-form {
+            background-color: #CCCCCC; /* Light grey background */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Dark shadow */
+            border: 2px solid #CC9900; /* Gold border */
+        }
+        
+        h2 {
+            color: #CC9900; /* Gold heading */
+            margin-bottom: 10px;
+        }
+        
+        h3 {
+            color: #333333; /* Black heading */
+            margin-top: 20px;
+        }
+        
+        ul {
+            color: #666666; /* Dark grey list items */
+            margin-bottom: 15px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #666666; /* Dark grey border */
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        button[type="submit"] {
+            background-color: #CC9900; /* Gold button */
+            color: #333333; /* Black text */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #FFD700; /* Brighter gold on hover */
+        }
+
+        /* Hide About Us button */
+        nav ul li:nth-child(2) {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><strong>Phone:</strong> +1234567890</li>
+                    <li><strong>Email:</strong> info@swvbrothers.com</li>
+                    <li><strong>Address:</strong> 123 Main Street, City, Country</li>
+                </ul>
+            </section>
+
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form id="contactForm">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

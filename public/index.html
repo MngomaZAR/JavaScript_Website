@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWV Brothers Group</title>
+    <style>
+        /* Additional CSS for layout and colors */
+        body {
+            background-color: #333333; /* Black background */
+            color: #CCCCCC; /* Light grey text */
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .landing-title {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: tilt 2s infinite alternate; /* Tilt animation */
+        }
+
+        @keyframes tilt {
+            0% {
+                transform: rotate(-2deg); /* Rotate left */
+            }
+            100% {
+                transform: rotate(2deg); /* Rotate right */
+            }
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #CC9900; /* Gold */
+            color: #333333; /* Black text */
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ffd700; /* Brighter metallic gold on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="landing-title">SWV BROTHERS GROUP</h1>
+        
+        <div>
+            <a href="about.html" class="btn">About Us</a>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </div>
+</body>
+</html>

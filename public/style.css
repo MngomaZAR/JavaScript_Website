@@ -1,0 +1,98 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define colors */
+:root {
+    --primary-color: #6E68F7; /* Purplish blue */
+    --secondary-color: #1a1a1a; /* Dark background */
+    --accent-color: #00ffcc; /* Neon green */
+    --background-color: #FFFFFF; /* White */
+    --text-color: #333333; /* Dark gray */
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Header styles */
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+/* Main section styles */
+.about-content {
+    padding: 50px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.about-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.about-content p {
+    font-size: 1.1em;
+}
+
+.about-content ul {
+    margin-top: 20px;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+}
+
+.about-content ul li strong {
+    color: var(--accent-color);
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Landing page styles */
+.web3-screenshot {
+    width: 1480px;
+    height: 824px;
+    background-image: url("C:\\Users\\27790\\Desktop\\SWV_Brothers_Group\\Screenshot 2024-02-25 085250.png");
+    background-size: cover;
+}
+/* Additional CSS for layout and colors */
